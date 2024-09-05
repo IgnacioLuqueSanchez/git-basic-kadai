@@ -4,7 +4,6 @@ PS C:\Users\Nacho\Desktop\git_challenge> git add .
 PS C:\Users\Nacho\Desktop\git_challenge> git commit -m "hello_world.txt"
 [main (root-commit) 20eded1] hello_world.txt
  create mode 100644 hello_world.txt
-PS C:\Users\Nacho\Desktop\git_challenge> git commit -m "connichiwa_sekai"
 On branch main
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -14,3 +13,11 @@ Changes not staged for commit:
 no changes added to commit (use "git add" and/or "git commit -a")
 PS C:\Users\Nacho\Desktop\git_challenge> git log --oneline
 20eded1 (HEAD -> main) hello_world.txt
+PS C:\Users\Nacho\Desktop\git_challenge> git add .
+PS C:\Users\Nacho\Desktop\git_challenge> git commit -m "connichiwa_sekai"                 
+[main 1cafb0e] connichiwa_sekai
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\Nacho\Desktop\git_challenge> git log --oneline
+1cafb0e (HEAD -> main) connichiwa_sekai
+20eded1 hello_world.txt
+PS C:\Users\Nacho\Desktop\git_challenge> 
